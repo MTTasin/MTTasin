@@ -1,14 +1,14 @@
 <h1 align="center">Mohammad Tahmim Tasin</h1>
 
 <p align="center">
-Co founder and CTO at FreeleeGo. I build and ship production web products with Next.js, Django and PostgreSQL.
+Full-stack developer and co-founder and CTO at FreeLeeGo. I build and ship production web products with Next.js, Django and PostgreSQL.
 </p>
 
 <p align="center">
-<a href="https://mttasin.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
+<a href="https://mttasin.com/"><img src="https://img.shields.io/badge/Portfolio-mttasin.com-F59E0B?style=for-the-badge&labelColor=111111" alt="Portfolio: mttasin.com"></a>
 <a href="mailto:m.t.tasin20@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-<a href="https://linkedin.com/in/mttasin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="https://x.com/MTTasin1"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+<a href="https://www.linkedin.com/in/mttasin/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://x.com/MTTasin"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
 <a href="https://www.facebook.com/M.T.Tasin20"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"></a>
 </p>
 
@@ -16,20 +16,21 @@ Co founder and CTO at FreeleeGo. I build and ship production web products with N
 
 ## About
 
-- Co founder and CTO at **[FreeleeGo](https://www.freeleego.com/)**, a digital agency based in Chattogram, Bangladesh
+- Full-stack developer since 2023, working remotely with clients in the US, Canada, the UK and Europe. Portfolio and case studies: **[mttasin.com](https://mttasin.com/)**
+- Co-founder and CTO at **[FreeLeeGo](https://freeleego.com/)**, a full-stack digital agency
 - I take products end to end, from data model and API design through to deployment, scaling and the ads that bring traffic in
 - Day to day stack is Next.js and TypeScript on the front, Django REST Framework and PostgreSQL behind it, Redis and Celery where the work needs a queue
 - I also build AI and ML features into client products, from LLM powered sales agents to recommendation and scoring
 - I ship for real constraints, low bandwidth Android users, shared cPanel hosts, local payment gateways, Bengali first interfaces
-- Available for client work, both through FreeleeGo and directly
+- Open to freelance projects, contract work and full-time remote roles, directly or through FreeLeeGo
 
-> Source for the projects below is private. Every one of them is live, so click the site rather than looking for a repo.
+> Source for the projects below is private. Every one of them is live, so click the site rather than looking for a repo. Full write-ups are on [mttasin.com/projects](https://mttasin.com/projects/).
 
 ## Selected work
 
 ### [EducareQuiz](https://educarequiz.com)
 
-Medical exam prep platform for Bangladeshi medical students. Question bank, timed mock exams, video and slide lessons, full admin panel. Built for a client, shown with their permission.
+Medical exam prep platform for Bangladeshi medical students. Question bank, timed mock exams, video and slide lessons, full admin panel. Built for a client, shown with their permission. [Case study](https://mttasin.com/projects/educarequiz/)
 
 - Next.js 16, React 19, Django 6, PostgreSQL 18, Redis, Celery, Docker Compose on a single VPS
 - Write behind answer cache so a student's answers survive a closed browser, Redis first then flushed to PostgreSQL
@@ -41,7 +42,7 @@ Medical exam prep platform for Bangladeshi medical students. Question bank, time
 
 ### [Zaujain Nikah Point](https://zaujain.xyz/)
 
-My own ecommerce business selling premium customized Nikah Nama products across Bangladesh. I built the platform and I run the Meta ads behind it.
+My own ecommerce business selling premium customized Nikah Nama products across Bangladesh. I built the platform and I run the Meta ads behind it. [Case study](https://mttasin.com/projects/zaujain-ecommerce/)
 
 - Next.js 16, TypeScript, Django 6, deployed on shared cPanel with Passenger, no Docker and no background workers
 - With no job queue available, fraud checks and LLM calls run synchronously with timeouts and fallbacks rather than pretending a worker exists
@@ -50,16 +51,16 @@ My own ecommerce business selling premium customized Nikah Nama products across 
 - Built for slow 2G and 3G on low end Android, image first, huge tap targets, Bengali only storefront with an English admin panel
 - Courier booking and the Meta conversion event fire only after a human confirms the order by phone, so a cancelled order never reports a sale
 
-### [FreeleeGo Platform](https://www.freeleego.com/)
+### [FreeLeeGo Platform](https://freeleego.com/)
 
-Our agency site plus the client and team portal behind it. Portfolio and case studies on the public side, projects, tasks, meetings, files and invoices behind auth.
+Our agency site plus the client and team portal behind it. Portfolio and case studies on the public side, projects, tasks, meetings, files and invoices behind auth. [Case study](https://mttasin.com/projects/freeleego-agency-platform/)
 
 - Next.js, Redux Toolkit, Django REST Framework, Djoser and SimpleJWT with refresh handling
 - Client portal for project progress, separate team portal for profiles, tasks and admin work
 
-### FreeleeGo CRM
+### FreeLeeGo CRM
 
-Internal CRM we run the agency on. Leads, kanban tasks, content calendar and email campaigns in one place. Private, no public instance.
+Internal CRM we run the agency on. Leads, kanban tasks, content calendar and email campaigns in one place. Private, no public instance. [Case study](https://mttasin.com/projects/freeleego-crm/)
 
 - React with Vite, Redux Toolkit, Django REST Framework, JWT auth
 - Drip sender paces campaign email one at a time on a fixed interval so the sending domain does not get spam flagged
@@ -110,6 +111,8 @@ Internal CRM we run the agency on. Leads, kanban tasks, content calendar and ema
 
 ## Hire me
 
-I take on client projects, both through FreeleeGo and directly. Web apps, ecommerce, custom platforms, and the paid ads and SEO that bring people to them.
+I take on freelance projects, contracts and full-time remote roles, directly or through FreeLeeGo when the project needs a full team. Web apps, SaaS, ecommerce, offline-first apps and machine learning, plus the paid ads and SEO that bring people to them. More on how I run a project: [full-stack development](https://mttasin.com/services/full-stack-development/).
 
-Email **[m.t.tasin20@gmail.com](mailto:m.t.tasin20@gmail.com)** or message me on [LinkedIn](https://linkedin.com/in/mttasin). More work on my [portfolio](https://mttasin.vercel.app/).
+I'm in GMT+6, which overlaps with European mornings and US East Coast evenings.
+
+Email **[m.t.tasin20@gmail.com](mailto:m.t.tasin20@gmail.com)** or message me on [LinkedIn](https://www.linkedin.com/in/mttasin/). More work and contact details at **[mttasin.com](https://mttasin.com/)**.
